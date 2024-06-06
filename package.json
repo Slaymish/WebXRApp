@@ -1,14 +1,25 @@
 {
   "name": "ratktest",
   "version": "1.0.0",
+  "description": "A webxr app using RATK and Three.js",
   "main": "index.js",
   "scripts": {
+    "start": "parcel index.html",
+    "build": "parcel build index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "",
+  "author": "Hamish Burke",
   "license": "ISC",
-  "description": "",
   "dependencies": {
-    "ratk": "^0.3.0"
-  }
+    "ratk": "^0.3.0",
+    "three": "^0.128.0"
+  },
+  "devDependencies": {
+    "parcel": "^2.12.0"
+  },
+  "keywords": [
+    "WebXR",
+    "Three.js",
+    "RATK"
+  ]
 }
