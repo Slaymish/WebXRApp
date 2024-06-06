@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "start": "./start.sh",
-    "build": "parcel build src/index.html",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "parcel build src/index.html"
   },
   "author": "Hamish Burke",
   "license": "ISC",
@@ -23,3 +22,4 @@
     "RATK"
   ]
 }
+
