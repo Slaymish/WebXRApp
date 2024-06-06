@@ -142,9 +142,9 @@
       this[globalName] = mainExports;
     }
   }
-})({"farZc":[function(require,module,exports) {
+})({"6YQwO":[function(require,module,exports) {
 var global = arguments[3];
-var HMR_HOST = null;
+var HMR_HOST = "10.141.91.102";
 var HMR_PORT = null;
 var HMR_SECURE = false;
 var HMR_ENV_HASH = "d6ea1d42532a7575";
@@ -30321,6 +30321,6 @@ function createWindow(scene) {
     scene.add(plane);
 }
 
-},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["farZc","8lqZg"], "8lqZg", "parcelRequireb943")
+},{"three":"ktPTu","@parcel/transformer-js/src/esmodule-helpers.js":"gkKU3"}]},["6YQwO","8lqZg"], "8lqZg", "parcelRequireb943")
 
 //# sourceMappingURL=index.975ef6c8.js.map

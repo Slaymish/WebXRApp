@@ -4,8 +4,8 @@
   "description": "A webxr app using RATK and Three.js",
   "main": "index.js",
   "scripts": {
-    "start": "parcel index.html",
-    "build": "parcel build index.html",
+    "start": "./start.sh",
+    "build": "parcel build src/index.html",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Hamish Burke",
