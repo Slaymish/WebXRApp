@@ -28,7 +28,7 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 1. Clone the repository:
    ```bash
    git clone https://github.com/Slaymish/WebXRApp.git
-   cd webxr-app
+   cd WebXRApp
    ```
 
 2. Install dependencies:
