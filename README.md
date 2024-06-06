@@ -15,6 +15,7 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 ## Todo
 
 - [ ] Setup basic WebXR scene
+- [ ] Passthrough
 - [ ] Allow for creation of windows
 - [ ] Hand tracking
 - [ ] Persistent anchors (come back, windows in the same place)
@@ -26,7 +27,7 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/yourusername/webxr-app.git
+   git clone https://github.com/Slaymish/WebXRApp.git
    cd webxr-app
    ```
 
@@ -40,25 +41,8 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
    npm start
    ```
 
-4. Open your browser and navigate to `http://localhost:1234`.
+4. Open your browser on your quest and navigate to `http://<lan-ip>:1234`.
 
-## Project Structure
-
-```
-my-webxr-app/
-├── index.html
-├── js/
-│   └── index.js
-├── css/
-│   └── style.css
-├── assets/
-│   └── (any assets like images, models, etc.)
-├── node_modules/
-│   └── (dependencies installed via npm/yarn)
-├── package.json
-├── package-lock.json
-└── README.md
-```
 
 ## Development Notes
 
