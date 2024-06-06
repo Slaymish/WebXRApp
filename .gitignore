@@ -1,5 +1,14 @@
-node_modules
-node_modules/*
 .parcel-cache
 .parcel-cache/
 dist
+.cache
+.cache/
+node_modules
+node_modules/
+
+# Misc
+.DS_Store
+.env
+
+
+

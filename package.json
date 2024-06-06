@@ -4,12 +4,14 @@
   "description": "A webxr app using RATK and Three.js",
   "main": "index.js",
   "scripts": {
-    "start": "./start.sh",
+    "start": "node start.js",
     "build": "parcel build src/index.html"
   },
   "author": "Hamish Burke",
   "license": "ISC",
   "dependencies": {
+    "express": "^4.19.2",
+    "http-proxy-middleware": "^3.0.0",
     "ratk": "^0.3.0",
     "three": "^0.128.0"
   },
@@ -22,4 +24,3 @@
     "RATK"
   ]
 }
-
