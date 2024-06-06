@@ -10,7 +10,7 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 - **Persistent Anchors**: Save and restore the position of windows between sessions.
 - **Window Movement**: Allow users to move and reposition windows.
 - **Styling/Design**: Implement fluid and intuitive movement and styling for windows.
-- **Window Content**: Display content within windows, potentially using iframes or other embedded elements.
+- **Window Content**: Display content within windows, potentially displaying html, using iframes or other embedded elements.
 
 ## Todo
 
@@ -26,23 +26,25 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 ## Setup and Installation
 
 1. Clone the repository:
+
    ```bash
    git clone https://github.com/Slaymish/WebXRApp.git
    cd WebXRApp
    ```
 
 2. Install dependencies:
+
    ```bash
    npm install
    ```
 
 3. Run the development server:
+
    ```bash
-   npm start
+   npm run serve
    ```
 
 4. Open your browser on your quest and navigate to `http://<lan-ip>:1234`.
-
 
 ## Development Notes
 
