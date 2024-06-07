@@ -1,12 +1,4 @@
 /* eslint-disable sort-imports */
-/* eslint-disable no-unused-vars */
-/**
- * Custom App: Spatial UI Test Zone
- *
- * This source code is licensed under the MIT license found in the
- * LICENSE file in the root directory of this source tree.
- */
-
 import './styles/index.css';
 
 import { Clock, DoubleSide, MeshBasicMaterial, SkeletonHelper } from 'three';
@@ -19,16 +11,20 @@ import { GlobalComponent } from './global';
 import { InlineSystem } from './landing';
 import { setupScene } from './scene';
 import { SpawnSystem } from './spawner';
+import { WindowComponent, WindowSystem } from './windows';
 
 const world = new World();
 world
     .registerComponent(GlobalComponent)
     .registerComponent(PlayerComponent)
     .registerComponent(SpinComponent)
+    .registerComponent(WindowComponent)
     .registerSystem(PlayerSystem)
     .registerSystem(SpawnSystem)
     .registerSystem(SpinSystem)
-    .registerSystem(InlineSystem);
+    .registerSystem(InlineSystem)
+    .registerSystem(WindowSystem);
+
 const clock = new Clock();
 
 console.log('Execution order:', ...world.getSystems());
@@ -60,8 +56,8 @@ renderer.xr.addEventListener('sessionstart', () => {
 
     // Enable hand tracking
     const session = renderer.xr.getSession();
-    session.requestReferenceSpace('local').then((refSpace) => {
-        session.requestAnimationFrame((time, frame) => {
+    session.requestReferenceSpace('local').then((_refSpace) => {
+        session.requestAnimationFrame((_time, _frame) => {
             const inputSources = session.inputSources;
             for (const inputSource of inputSources) {
                 if (inputSource.hand) {

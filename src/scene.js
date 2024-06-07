@@ -9,9 +9,9 @@ import {
 	DirectionalLight,
 	HemisphereLight,
 	PerspectiveCamera,
+	SRGBColorSpace,
 	Scene,
 	WebGLRenderer,
-	sRGBEncoding,
 } from 'three';
 
 export const setupScene = () => {
@@ -33,7 +33,7 @@ export const setupScene = () => {
 	const renderer = new WebGLRenderer({ alpha: true, antialias: true });
 	renderer.setPixelRatio(window.devicePixelRatio);
 	renderer.setSize(window.innerWidth, window.innerHeight);
-	renderer.outputEncoding = sRGBEncoding;
+	renderer.outputEncoding = SRGBColorSpace;
 	renderer.xr.enabled = true;
 	document.body.appendChild(renderer.domElement);
 
