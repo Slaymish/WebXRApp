@@ -1,5 +1,7 @@
 # Test WebXR App!!!
 
+- Using this [template](https://github.com/meta-quest/spatial-web-template template)!
+
 A WebXR application using Three.js and RATK, aiming to create a spatial computing environment similar to Apple's Vision Pro (AVP) for the Oculus Quest 2. This project will gradually develop features like passthrough environments, window creation, hand tracking, and persistent anchors.
 
 ## Features
