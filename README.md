@@ -46,6 +46,23 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 
 4. Open your browser on your quest and navigate to `http://<lan-ip>:1234`.
 
+
+## To use prompt_maker.py in development
+
+- You'll have the option to save the contents to your clipboard
+- Basically just lists all the files in the dir (using tree -L 2)
+- As well as the contents of each files
+- Useful for sending to an LLM when you need help/advice on the project
+
+```bash
+cd src/
+python -m venv venv
+source venv/bin/activate
+pip install pyperclip
+python3 prompt_maker.py
+```
+
+
 ## Development Notes
 
 ### Basic WebXR Scene
