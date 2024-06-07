@@ -16,8 +16,8 @@ A WebXR application using Three.js and RATK, aiming to create a spatial computin
 
 ## Todo
 
-- [ ] Setup basic WebXR scene
-- [ ] Passthrough
+- [X] Setup basic WebXR scene
+- [X] Passthrough
 - [ ] Allow for creation of windows
 - [ ] Hand tracking
 - [ ] Persistent anchors (come back, windows in the same place)
